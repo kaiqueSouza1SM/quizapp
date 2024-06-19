@@ -21,6 +21,7 @@
    --bg-acessibilidade:#ebf0ff;
    --white: #fff;
    --bg-mobile: url(./assent/images/pattern-background-mobile-light.svg);
+   --bg-desktop:url(./assents/images/pattern-blackground-desktop-light.svg);
 }
 
 
@@ -142,6 +143,15 @@ font-weight: 500;
 }
 .botao_acessibilidade div {
    background: var(--bg-acessibilidade);
+}
+@midia(min-width: 1100px) {
+body  {
+blackgraound: var(--bg-color);
+blackgraound-sizer: cover;
+blackgraound-repeat:no-repeat;
+}
+
+
 }
 
 
